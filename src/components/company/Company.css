@@ -1,0 +1,40 @@
+
+
+.box{
+    display: flex;
+    width: 150px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.left{
+    width: 30px;
+    height: 36px;
+    border-radius: 7px 0px 0px 7px;
+}
+
+.right{
+    display: flex;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    color:black;
+    font-family: 'Kanit', sans-serif;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    border-radius: 0px 7px 7px 0px;
+    width:250px;
+    padding: 7px 6px 6px 5px;
+    border: 1px solid;
+    gap:4px;
+}
+
+.value{
+    display: flex;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+}

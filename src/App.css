@@ -1,0 +1,75 @@
+
+.DMbutton{
+  border-radius: 50%; /* Set border-radius to 50% for a round shape */
+  width: 50px; /* Set the width of the button */
+  height: 50px; /* Set the height of the button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none; /* Remove the border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  outline: none; /* Remove the default focus outline */
+  margin-top: 535px;
+  margin-left: 30px;
+
+}
+
+body{
+  background-color: black;
+}
+
+/* App.css */
+
+/* Style the select element with rounded borders */
+select {
+  padding: 10px;
+  font-size: 16px;
+  font-family: Kanit;
+  font-weight: 600;
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Rounded border */
+  width: 220px; /* Adjust the width as needed */
+  background-color: #fff;
+  color: #333;
+  margin-top: 5px;
+  margin-left: 5px;
+  /* appearance: none; Remove default arrow on some browsers */
+}
+
+/* Style the dropdown arrow (on browsers that support 'appearance') */
+select::-ms-expand {
+  display: none;
+}
+
+/* Style the dropdown options */
+select option {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style the dropdown when it's focused */
+select:focus {
+  outline: none;
+  border-color: #007bff; /* Highlight border color when focused */
+}
+
+.loader {
+  margin: auto;
+  border: 20px solid #EAF0F6;
+  border-radius: 50%;
+  border-top: 20px solid #FF69B4;
+  width: 30px;
+  height: 30px;
+  animation: spinner 1s linear infinite;
+  background-color: inherit;
+}
+
+@keyframes spinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.Dropdown{
+  margin-bottom: 100px;
+}

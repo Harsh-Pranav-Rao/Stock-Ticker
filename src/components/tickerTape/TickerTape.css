@@ -1,0 +1,32 @@
+/* TickerTape.css */
+
+/* Container for the ticker tape */
+.ticker-container {
+  overflow: hidden; /* Hide any overflow content */
+  width: 100%; /* Set the width to 100% of its container */
+  height: 50px; /* Set the height as needed */
+               /* Background color */
+}
+
+/* The ticker tape itself */
+.ticker {
+  white-space: nowrap; /* Prevent text from wrapping */
+ /* Display as an inline block */
+  display: flex;
+  justify-content: space-between;
+  gap:50px;
+  animation: ticker-slide 60s linear infinite; /* Animation settings (adjust duration as needed) */
+  font-size: 18px; /* Font size */
+  color: #fff; /* Text color */
+  padding: 10px; /* Padding around ticker items */
+}
+
+/* Keyframe animation to slide the ticker tape */
+@keyframes ticker-slide {
+  0% {
+    transform: translateX(100%); /* Start from the right edge */
+  }
+  100% {
+    transform: translateX(-100%); /* End at the left edge */
+  }
+}
